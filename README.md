@@ -5,4 +5,5 @@ With the rapid evolution in the world of technology, it becomes increasingly imp
 ## The Dataset
 The Lyft dataset from the active Kaggle competition was a total of 85 GB. The data was split between testing and training sets and included a sample submission. The dataset gives a 3D point cloud and camera data from the Lyft test vehicles. The data was captured by 10 host cars on the roads of Palo Alto, California. Each of the host cars has seven cameras and one LiDAR sensor on the roof, and 2 smaller sensors underneath the headlights of the vehicle.
 
+![Image description]( https://mobiag.com/blog/lyft-unveils-a-new-self-driving-car/)
 
