@@ -9,3 +9,6 @@ The Lyft dataset from the active Kaggle competition was a total of 85 GB. The da
 
 *Source: https://www.autonews.com/mobility-report/ipo-road-show-lyft-executives-look-lower-insurance-costs*
 
+## Approach
+
+![Image description](lyft.jpeg) <br />
