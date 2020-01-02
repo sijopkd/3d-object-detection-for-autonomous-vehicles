@@ -11,4 +11,4 @@ The Lyft dataset from the active Kaggle competition was a total of 85 GB. The da
 
 ## Approach
 
-![Image description](lyft.jpeg) <br />
+![Image description](preprocessing.png) <br />
