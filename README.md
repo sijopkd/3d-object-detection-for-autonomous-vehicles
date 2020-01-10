@@ -11,4 +11,9 @@ The Lyft dataset from the active Kaggle competition was a total of 85 GB. The da
 
 ## Approach
 
-![Image description](preprocessing.png) <br />
+The data was loaded into Google Cloud Platform using Kaggle API and then the weights were trained on GCP. The predictions generated were then submitted to kaggle. 
+
+## Results 
+
+Final model -> 0.045 mAP 
+
