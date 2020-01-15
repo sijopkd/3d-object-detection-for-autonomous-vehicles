@@ -14,7 +14,11 @@ The Lyft dataset from the active Kaggle competition was a total of 85 GB. The da
 
 The average precision is calculated at different thresholds of Intersection over Union (IoU) to evaluate the object detection model. The IoU of a 2D bounding box is the area of the overlapping region divided by the total area of union. The IoU is calculated at thresholds starting from 0.55 to 0.95 with a step size of 0.05.
 
+#### Intersection Over Union (IOU) 
+
 ![Image description](iou.png) <br />
+
+#### Mean absolute precision (mAP) 
 
 ![Image description](map.png) <br />
 
