@@ -25,7 +25,13 @@ The average precision is calculated at different thresholds of Intersection over
 
 ## Approach
 
-The data was loaded into Google Cloud Platform using Kaggle API and then the weights were trained on GCP. The predictions generated were then submitted to kaggle. 
+1) Data was loaded into Google Cloud Platform instance using Kaggle API
+2) Data preprocessing
+   - Superimpose Lidar points from three sensors into one
+   - Create Bird Eye View (BEV) using the superimposed Lidar pointclouds 
+   - Transform the annotated bounding boxes to BEV to create target images 
+   ![Image description](preprocessing.png) <br />
+   
 
 ## Results 
 
