@@ -20,7 +20,7 @@ The average precision is calculated at different thresholds of Intersection over
 
 #### Mean absolute precision (mAP) 
 
-![Image description](map.png) <br />
+                              ![Image description](map.png) <br />
 
 
 ## Approach
