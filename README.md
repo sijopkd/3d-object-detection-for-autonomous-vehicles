@@ -30,8 +30,8 @@ The average precision is calculated at different thresholds of Intersection over
    - Superimpose Lidar points from three sensors into one
    - Create Bird Eye View (BEV) using the superimposed Lidar pointclouds 
    - Transform the annotated bounding boxes to BEV to create target images(shown below)
+    ![Image description](preprocessing_2.png) <br />
    - 
- ![Image description](preprocessing_2.png) <br />
 ## Results 
 
 Final model -> 0.045 mAP 
