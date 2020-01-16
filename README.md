@@ -49,6 +49,7 @@ Modifications to the architecture and models:
 
 - Final model was an ensemble of models from epochs 8,9,10, 29 and 30
 - Scored mAP of 0.046 on public leaderboard and 0.045 on the private leaderboard
+- Ranked in the top 20% among all the participants
 
 ## Future work 
 
@@ -58,5 +59,4 @@ Modifications to the architecture and models:
 - With better computational power, the model can be tuned efficiently
 - Could try models with different architectures
 
-## Competition result 
-![Image description](kaggle_leaderboard.PNG) <br />
+
