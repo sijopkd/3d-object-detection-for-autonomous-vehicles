@@ -37,7 +37,11 @@ The average precision is calculated at different thresholds of Intersection over
 
 - Train a U-Net fully connected convolutional neural network to predict whether an object is present in the BEV 
 - Threshold this probability map to fit boxes around the detections 
-
+Modifications to the architecture: 
+   - Reduce class weights while training using cross entropy / softmax loss
+   - Height of the class was modified to be the conditional mean of individual classes
+   - Changed parameters in the UNET Architecture (optimizer, sampling, batch size)
+   - Added a map mask and trained the model
 ## Results 
 
 Final model -> 0.045 mAP 
