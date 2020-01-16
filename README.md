@@ -57,3 +57,6 @@ Modifications to the architecture and models:
 - User only one Lidar Sweep use images and other lidar sweeps to make accurate predictions
 - With better computational power, the model can be tuned efficiently
 - Could try models with different architectures
+
+## Competition result 
+![Image description](kaggle_leaderboard.png) <br />
