@@ -41,7 +41,8 @@ Modifications to the architecture:
    - Reduce class weights while training using cross entropy / softmax loss
    - Height of the class was modified to be the conditional mean of individual classes
    - Changed parameters in the UNET Architecture (optimizer, sampling, batch size)
-   - Added a map mask and trained the model
+   - Added a map mask(shown below) as input with three additional channels and trained the model  
+   ![Image description](map_mask.png) <br />
 ## Results 
 
 Final model -> 0.045 mAP 
