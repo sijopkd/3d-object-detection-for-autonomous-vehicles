@@ -31,7 +31,9 @@ The average precision is calculated at different thresholds of Intersection over
    - Create Bird Eye View (BEV) using the superimposed lidar pointclouds 
    - Transform the annotated bounding boxes to BEV to create target images(shown below)
     ![Image description](preprocessing_2.png) <br />
-   - 
+   - After generating the targets, transform the labels back to the real world coordinates to generate the predctions 
+ 
+ 
 ## Results 
 
 Final model -> 0.045 mAP 
