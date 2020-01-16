@@ -37,16 +37,23 @@ The average precision is calculated at different thresholds of Intersection over
 
 - Train a U-Net fully connected convolutional neural network to predict whether an object is present in the BEV 
 - Threshold this probability map to fit boxes around the detections 
-Modifications to the architecture: 
+Modifications to the architecture and models: 
    - Reduce class weights while training using cross entropy / softmax loss
    - Height of the class was modified to be the conditional mean of individual classes
    - Changed parameters in the UNET Architecture (optimizer, sampling, batch size)
    - Added a map mask(shown below) as input with three additional channels and trained the model  
    ![Image description](map_mask.png) <br />
-   
+   - Created ensembles of models from different epochs (mean of the weights) 
+
 ## Results 
 
-Final model -> 0.045 mAP 
+- Final model was an ensemble of models from epochs 8,9,10, 29 and 30
+- Scored mAP of 0.046 on public leaderboard and 0.045 on the private leaderboard
 
 ## Future work 
 
+- Model still fails to predict the small objects from the BEV eg. pedestrians
+- The model assumes flat surface: all the objects are at the same height as that of the ego vehicle
+- User only one Lidar Sweep use images and other lidar sweeps to make accurate predictions
+- With better computational power, the model can be tuned efficiently
+- Could try models with different architectures
