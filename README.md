@@ -59,4 +59,4 @@ Modifications to the architecture and models:
 - Could try models with different architectures
 
 ## Competition result 
-![Image description](kaggle_leaderboard.png) <br />
+![Image description](kaggle_leaderboard.PNG) <br />
