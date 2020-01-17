@@ -61,5 +61,9 @@ Modifications to the architecture and models:
 
 ## Final predictions 
 
+The final predicted bounding boxes were fit into the images and a gif file was created:  
+
 ![Image description](final.gif) <br />
+
+
 
