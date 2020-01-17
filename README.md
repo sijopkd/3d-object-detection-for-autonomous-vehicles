@@ -59,4 +59,7 @@ Modifications to the architecture and models:
 - With better computational power, the model can be tuned efficiently
 - Could try models with different architectures
 
+## Final predictions 
+
+![Image description](final.gif) <br />
 
