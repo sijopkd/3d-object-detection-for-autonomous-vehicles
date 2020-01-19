@@ -16,11 +16,11 @@ The average precision is calculated at different thresholds of Intersection over
 
 #### Intersection Over Union (IOU) 
 
-![Image description](iou.png) <br />
+![Image description](/media/iou.png) <br />
 
 #### Mean absolute precision (mAP) 
 
-   ![Image description](map.png) <br />
+   ![Image description](/media/map.png) <br />
 
 
 ## Approach
@@ -30,7 +30,7 @@ The average precision is calculated at different thresholds of Intersection over
    - Superimpose Lidar points from three sensors into one
    - Create Bird Eye View (BEV) using the superimposed lidar pointclouds 
    - Transform the annotated bounding boxes to BEV to create target images(shown below)
-    ![Image description](preprocessing_2.png) <br />
+    ![Image description](/media/preprocessing_2.png) <br />
    - After generating the targets, transform the labels back to the real world coordinates to generate the predctions 
 
 ## Training
@@ -42,7 +42,7 @@ Modifications to the architecture and models:
    - Height of the class was modified to be the conditional mean of individual classes
    - Changed parameters in the UNET Architecture (optimizer, sampling, batch size)
    - Added a map mask(shown below) as input with three additional channels and trained the model  
-   ![Image description](map_mask.png) <br />
+   ![Image description](/media/map_mask.png) <br />
    - Created ensembles of models from different epochs (mean of the weights) 
 
 ## Results 
@@ -63,7 +63,7 @@ Modifications to the architecture and models:
 
 The final predicted bounding boxes were fit into the images and a gif file was created:  
 
-![Image description](final.gif) <br />
+![Image description](/media/final.gif) <br />
 
 
 
