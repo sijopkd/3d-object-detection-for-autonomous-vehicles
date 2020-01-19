@@ -1,6 +1,6 @@
 # 3D-Object Detection for Autonomous Vehicles 
 ## *Can you advance the state of the art in 3D object detection?*
-![Image description](lyft.jpeg) <br />
+![Image description](/media/lyft.jpeg) <br />
 
 *Source: https://www.autonews.com/mobility-report/ipo-road-show-lyft-executives-look-lower-insurance-costs*
 
