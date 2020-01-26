@@ -65,5 +65,5 @@ The final predicted bounding boxes were fit into the images and a gif file was c
 
 ![Image description](/media/final.gif) <br />
 
-
-
+Read more about the project here: 
+!.[3D Object Detection](https://towardsdatascience.com/3d-object-detection-for-autonomous-vehicles-b5f480e40856)
